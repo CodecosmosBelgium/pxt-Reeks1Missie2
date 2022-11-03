@@ -141,6 +141,9 @@ player.onChat("level4", function () {
 })
 ```
 ```template
+loops.forever(function () {
+    CodeCosmos.giveRedstone()
+})
 player.onChat("level1", function () {
 CodeCosmos.startingPosition();
 })

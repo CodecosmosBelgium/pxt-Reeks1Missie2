@@ -3,8 +3,16 @@ namespace CodeCosmos {
     //% block="startingPosition"
     //% block.loc.nl="zetKlaar"
     export function startingPosition() {
-        agent.setItem(REDSTONE_WIRE, 64, 1)
-        agent.setSlot(1)
+        agent.setItem(REDSTONE_WIRE, 64, 1);
+        agent.setSlot(1);
         player.execute("function levels/startingPosition");
+    }
+
+    //% block="giveRedstone"
+    //% block.loc.nl="geefRedstone"
+    export function giveRedstone() {
+        if (agent.getItemCount(1) < 1) {
+            agent.setItem(REDSTONE_WIRE, 64, 1)
+        }
     }
 }
