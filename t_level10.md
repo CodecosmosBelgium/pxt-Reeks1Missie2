@@ -3,6 +3,7 @@
 ### @flyoutOnly true
 ```blocks
 player.onChat("level5", function () {
+CodeCosmos.startingPosition();
     for (let index = 0; index < 3; index++) {
         for (let index = 0; index < 3; index++) {
             agent.move(FORWARD, 1)
