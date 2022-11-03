@@ -141,7 +141,9 @@ player.onChat("level4", function () {
 })
 ```
 ```template
-player.onChat("", function () {})
+player.onChat("level", function () {
+CodeCosmos.startingPosition();
+})
 ```
 ## Lanceer de raket!
 Volg de instructies op het leerplatform om de opdracht op te lossen.
