@@ -141,7 +141,7 @@ player.onChat("level4", function () {
 })
 ```
 ```template
-player.onChat("", function () {})
+player.onChat("level1", function () {})
 ```
 ## Herstel het moederbord
 Volg de instructies op het leerplatform om de opdracht op te lossen.
