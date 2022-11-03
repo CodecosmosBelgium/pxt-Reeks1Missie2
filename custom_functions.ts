@@ -2,6 +2,8 @@
 namespace CodeCosmos {
     //% block.loc.nl="zetKlaar"
     export function startingPosition() {
+        agent.setItem(REDSTONE_WIRE, 64, 1)
+        agent.setSlot(1)
         player.execute("function levels/startingPosition");
     }
 }
