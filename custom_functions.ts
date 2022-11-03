@@ -4,6 +4,4 @@ namespace CodeCosmos {
     export function startingPosition() {
         player.execute("function levels/startingPosition");
     }
-
-    
 }

@@ -9,8 +9,9 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "t_level1.md",
-        "custom_functions.ts"
+        "custom_functions.ts",
+        "t_level10.md",
+        "t_level1-6.md"
     ],
     "testFiles": [
         "test.ts"
