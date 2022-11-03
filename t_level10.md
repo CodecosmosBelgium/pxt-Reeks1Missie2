@@ -47,7 +47,6 @@ player.onChat("level2", function () {
     }
 })
 player.onChat("level6", function () {
-    agent.setAssist(PLACE_ON_MOVE, false)
     for (let index = 0; index < 4; index++) {
         for (let index = 0; index < 2; index++) {
             agent.move(FORWARD, 1)
