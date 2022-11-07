@@ -11,7 +11,7 @@ namespace CodeCosmos {
     //% block="giveRedstone"
     //% block.loc.nl="geefRedstone"
     export function giveRedstone() {
-        if (agent.getItemCount(1) < 1) {
+        if (agent.getItemCount(1) < 10) {
             agent.setItem(REDSTONE_WIRE, 64, 1)
         }
     }
