@@ -1,6 +1,6 @@
-# Missie 2
 ### @hideIteration true
 ### @flyoutOnly true
+# Missie 2
 ```blocks
 player.onChat("level5", function () {
 CodeCosmos.startingPosition();
