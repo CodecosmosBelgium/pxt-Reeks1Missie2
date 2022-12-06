@@ -12,7 +12,8 @@
         "custom_functions.ts",
         "t_level10.md",
         "t_level1-6.md",
-        "t_no_exercise.md"
+        "t_no_exercise.md",
+        "level_check.ts"
     ],
     "testFiles": [
         "test.ts"

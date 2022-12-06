@@ -1,4 +1,5 @@
 ### @hideIteration true
+### @flyoutOnly true
 # Missie 2
 ## Geen oefening
 
