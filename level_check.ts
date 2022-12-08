@@ -8,6 +8,8 @@ function placeCheck() {
     if (correctPositions.indexOf(detectPostion) === -1 && (blocks.testForBlock(Block.LightGrayConcrete, detectPostion) || blocks.testForBlock(Block.RedstoneBlock, detectPostion))) {
         agent.place(DOWN)
         correctPositions.push(detectPostion);
+        player.execute(`execute @c ~ ~ ~ particle rwm:checkmark ~ ~1 ~`)
+
     } else {
         player.execute(`execute @c ~ ~ ~ particle rwm:barrier ~ ~1 ~`)
         blocks.place(RED_CONCRETE, detectPostion);
