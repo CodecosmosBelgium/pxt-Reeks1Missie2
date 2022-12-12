@@ -13,7 +13,8 @@
         "t_level10.md",
         "t_level1-6.md",
         "t_no_exercise.md",
-        "level_check.ts"
+        "level_check.ts",
+        "_locales/nl/t_level1-6.md"
     ],
     "testFiles": [
         "test.ts"
