@@ -1,6 +1,6 @@
 ### @hideIteration true
 ### @flyoutOnly true
-# Missie 2 NL
+# Missie 2
 ```blocks
 player.onChat("level5", function () {
 CodeCosmos.startingPosition();
@@ -146,4 +146,4 @@ CodeCosmos.startingPosition();
 })
 ```
 ## Herstel het moederbord NL
-Volg de instructies op het leerplatform om de opdracht op te lossen.
+Volg de instructies op het leerplatform om de opdracht op te lossen. NL
