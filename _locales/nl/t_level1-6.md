@@ -145,5 +145,5 @@ player.onChat("level1", function () {
 CodeCosmos.startingPosition();
 })
 ```
-## Herstel het moederbord
+## Herstel het moederbord NL
 Volg de instructies op het leerplatform om de opdracht op te lossen.
