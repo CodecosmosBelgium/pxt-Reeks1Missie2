@@ -12,7 +12,6 @@ function placeCheck() {
 
     } else {
         player.execute(`execute @c ~ ~ ~ particle rwm:barrier ~ ~1 ~`)
-        blocks.place(RED_CONCRETE, detectPostion);
     }
 
     player.execute(`scoreboard players set @a level_check ${correctPositions.length}`)
