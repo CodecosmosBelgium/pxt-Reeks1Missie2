@@ -11,7 +11,9 @@ namespace CodeCosmos {
     //% block.loc.nl="agent beweeg $direction met $amount en plaats"
     export function moveAndPlace(direction:FourDirection, amount:number) {
         agent.setItem(REDSTONE_WIRE, 64, 1);
-        agent.move(direction, amount);
-        placeAndCheck();
+        for(let i = 0; i < amount; i++){
+            agent.move(direction, 1);
+            placeAndCheck();
+        }
     }
 }
