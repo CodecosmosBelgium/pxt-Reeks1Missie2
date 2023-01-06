@@ -7,13 +7,21 @@ namespace CodeCosmos {
         player.execute("function levels/startingPosition");
     }
 
-    //% block="agent place and move $direction by $amount"
-    //% block.loc.nl="agent plaats en beweeg $direction met $amount"
+    //% block="place"
+    //% block.loc.nl="agent beweeg $direction met $amount en plaats"
+    export function place() {
+        agent.setItem(REDSTONE_WIRE, 64, 1);
+        placeAndCheck();
+        
+    }
+
+    //% block="agent move $direction by $amount and place"
+    //% block.loc.nl="agent beweeg $direction met $amount en plaats"
     export function moveAndPlace(direction:FourDirection, amount:number) {
         agent.setItem(REDSTONE_WIRE, 64, 1);
-        for(let i = 0; i < amount; i++){
-            placeAndCheck();
+        for(let i = 0; i < amount; i++) {
             agent.move(direction, 1);
+            placeAndCheck();
         }
     }
 }
