@@ -12,8 +12,8 @@ namespace CodeCosmos {
     export function moveAndPlace(direction:FourDirection, amount:number) {
         agent.setItem(REDSTONE_WIRE, 64, 1);
         for(let i = 0; i < amount; i++){
-            agent.move(direction, 1);
             placeAndCheck();
+            agent.move(direction, 1);
         }
     }
 }
