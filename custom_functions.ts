@@ -7,8 +7,8 @@ namespace CodeCosmos {
         player.execute("function levels/startingPosition");
     }
 
-    //% block="agent move $direction by $amount and place"
-    //% block.loc.nl="agent beweeg $direction met $amount en plaats"
+    //% block="agent place and move $direction by $amount"
+    //% block.loc.nl="agent plaats en beweeg $direction met $amount"
     export function moveAndPlace(direction:FourDirection, amount:number) {
         agent.setItem(REDSTONE_WIRE, 64, 1);
         for(let i = 0; i < amount; i++){
