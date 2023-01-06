@@ -6,7 +6,7 @@ namespace CodeCosmos {
         player.execute("function levels/startingPosition");
     }
 
-    //% block="agent beweeg $direction met $amount en plaats"
+    //% block="plaats"
     export function place() {
         agent.setItem(REDSTONE_WIRE, 64, 1);
         placeAndCheck();
