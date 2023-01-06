@@ -12,9 +12,7 @@ player.onChat("jump", function () {
 ```
 
 ```template
-player.onChat("level1", function () {
-CodeCosmos.startingPosition();
-})
+CodeCosmos.startingPosition()
 ```
 ## Herstel het moederbord
 Volg de instructies op het leerplatform om de opdracht op te lossen.
