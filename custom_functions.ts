@@ -10,7 +10,6 @@ namespace CodeCosmos {
     export function place() {
         agent.setItem(REDSTONE_WIRE, 64, 1);
         placeAndCheck();
-        
     }
 
     //% block="agent beweeg $direction met $amount en plaats"
