@@ -16,5 +16,5 @@ player.onChat("jump", function () {
 CodeCosmos.startingPosition()
 })
 ```
-## Herstel het moederbord
+## Herstel het moederbord (v1.0)
 Volg de instructies op het leerplatform om de opdracht op te lossen.
