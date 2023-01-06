@@ -145,6 +145,9 @@ player.onChat("level4", function () {
 player.onChat("level1", function () {
 CodeCosmos.startingPosition();
 })
+loops.forever(function () {
+    CodeCosmos.giveRedstone()
+})
 ```
 ## Herstel het moederbord
 Volg de instructies op het leerplatform om de opdracht op te lossen.

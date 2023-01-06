@@ -1,1 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="otVH9z_yRCNsb`S*8(F%" x="0" y="0"></block><block type="device_forever" id="hGnp{SZXYV%}F{:dNbDe" x="322" y="31"><statement name="HANDLER"><block type="CodeCosmos_giveRedstone" id="XMJQq;HqjE$+sNTP8o|V"></block></statement></block></xml>
