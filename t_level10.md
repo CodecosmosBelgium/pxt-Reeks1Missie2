@@ -6,6 +6,7 @@ player.onChat("jump", function () {
     CodeCosmos.startingPosition()
     for (let index = 0; index < 4; index++) {
         CodeCosmos.moveAndPlace(FourDirection.Left, 0)
+        CodeCosmos.place()
     }
 })
 ```
