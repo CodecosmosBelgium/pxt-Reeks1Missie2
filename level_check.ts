@@ -1,7 +1,7 @@
 let correctPositions: Position[] = [];
 
 
-function placeCheck() {
+function placeAndCheck() {
     const detectPostion = world(agent.getPosition().getValue(Axis.X), agent.getPosition().getValue(Axis.Y) - 1, agent.getPosition().getValue(Axis.Z))
 
 
