@@ -140,6 +140,7 @@ player.onChat("level4", function () {
     }
 })
 ```
+
 ```template
 player.onChat("level1", function () {
 CodeCosmos.startingPosition();
