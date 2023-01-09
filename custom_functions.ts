@@ -11,7 +11,6 @@ namespace CodeCosmos {
         } else {
             player.execute(`execute @c ~ ~ ~ particle rwm:barrier ~ ~1 ~`)
         }
-        player.say(`cp: ${correctPositions.length}`)
         player.execute(`scoreboard players set @a level_check ${correctPositions.length}`)
     }
 
