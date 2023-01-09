@@ -1,1 +1,1 @@
-let correctPositions: Position[] = []
+let correctPositions: String[] = []
