@@ -1,13 +1,13 @@
 //% color=190 weight=100 block="CodeCosmos"
 namespace CodeCosmos {
-    /*let correctPositions: Position[] = [];
+    let correctPositions: Position[] = [];
 
     function placeAndCheck() {
         const detectPostion = world(agent.getPosition().getValue(Axis.X), agent.getPosition().getValue(Axis.Y) - 1, agent.getPosition().getValue(Axis.Z))
 
         if (correctPositions.indexOf(detectPostion) === -1 && (blocks.testForBlock(Block.LightGrayConcrete, detectPostion) || blocks.testForBlock(Block.WhiteConcrete, detectPostion) || blocks.testForBlock(Block.RedstoneBlock, detectPostion))) {
             agent.place(DOWN)
-            correctPositions.push(detectPostion);
+            //correctPositions.push(detectPostion);
             player.execute(`execute @c ~ ~ ~ particle rwm:checkmark ~ ~1 ~`)
 
         } else {
@@ -15,7 +15,7 @@ namespace CodeCosmos {
         }
 
         player.execute(`scoreboard players set @a level_check ${correctPositions.length}`)
-    }*/
+    }
 
     //% block="zetKlaar"
     export function startingPosition() {
@@ -26,7 +26,7 @@ namespace CodeCosmos {
     //% block="plaats"
     export function place() {
         agent.setItem(REDSTONE_WIRE, 64, 1);
-        //placeAndCheck();
+        placeAndCheck();
     }
 
     //% block="agent beweeg $direction met $amount en plaats"
@@ -34,7 +34,7 @@ namespace CodeCosmos {
         agent.setItem(REDSTONE_WIRE, 64, 1);
         for(let i = 0; i < amount; i++) {
             agent.move(direction, 1);
-            //placeAndCheck();
+            placeAndCheck();
         }
     }
 }
