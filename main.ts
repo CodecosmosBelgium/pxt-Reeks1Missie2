@@ -1,1 +1,1 @@
-CodeCosmos.place()
+let correctPositions: Position[] = []
