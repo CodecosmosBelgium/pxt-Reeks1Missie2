@@ -12,7 +12,7 @@ player.onChat("jump", function () {
 ```
 
 ```template
-player.onChat("level1", function () {
+player.onChat("lanceer", function () {
 CodeCosmos.startingPosition();
 })
 ```
