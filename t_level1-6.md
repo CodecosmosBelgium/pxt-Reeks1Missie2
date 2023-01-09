@@ -15,5 +15,5 @@ player.onChat("level1", function () {
 CodeCosmos.startingPosition()
 })
 ```
-## Herstel het moederbord (v1.2)
+## Herstel het moederbord (v1.3)
 Volg de instructies op het leerplatform om de opdracht op te lossen.
