@@ -17,6 +17,7 @@ namespace CodeCosmos {
 
     //% block="zetKlaar"
     export function startingPosition() {
+        correctPositions = []
         agent.setSlot(1);
         player.execute("function levels/startingPosition");
     }

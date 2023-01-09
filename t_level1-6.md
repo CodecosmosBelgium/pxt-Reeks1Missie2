@@ -1,4 +1,5 @@
-
+### @hideIteration true
+### @flyoutOnly true
 # Missie 2
 ```blocks
 player.onChat("jump", function () {
@@ -15,5 +16,5 @@ player.onChat("level1", function () {
 CodeCosmos.startingPosition()
 })
 ```
-## Herstel het moederbord (v1.5)
+## Herstel het moederbord
 Volg de instructies op het leerplatform om de opdracht op te lossen.
