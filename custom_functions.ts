@@ -18,6 +18,7 @@ namespace CodeCosmos {
     export function startingPosition() {
         correctPositions = []
         agent.setSlot(1);
+        place();
         player.execute("function levels/startingPosition");
     }
 
