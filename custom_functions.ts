@@ -22,8 +22,7 @@ namespace CodeCosmos {
         place();
     }
 
-    //% block="plaats"
-    export function place() {
+    function place() {
         agent.setItem(REDSTONE_WIRE, 64, 1);
         placeAndCheck();
     }
