@@ -25,8 +25,9 @@ namespace CodeCosmos {
     export function checkLevel() {
         const detectPostion = world(agent.getPosition().getValue(Axis.X), agent.getPosition().getValue(Axis.Y) - 1, agent.getPosition().getValue(Axis.Z))
         const detectPostion2 = world(agent.getPosition().getValue(Axis.X), agent.getPosition().getValue(Axis.Y) - 2, agent.getPosition().getValue(Axis.Z))
+        const endPositionFinalLevel = world(68,77,-9)
 
-        if (blocks.testForBlock(Block.RedstoneLamp, detectPostion) || blocks.testForBlock(Block.RedstoneBlock, detectPostion) || blocks.testForBlock(Block.GreenWool, detectPostion2)) {
+        if (blocks.testForBlock(Block.RedstoneLamp, detectPostion) || blocks.testForBlock(Block.RedstoneBlock, detectPostion) || blocks.testForBlock(Block.GreenWool, detectPostion2) || agent.getPosition() === endPositionFinalLevel) {
             player.execute(`scoreboard players set @a level_check ${correctPositions.length}`)
         }
     }
