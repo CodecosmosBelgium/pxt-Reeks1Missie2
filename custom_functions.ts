@@ -33,6 +33,7 @@ namespace CodeCosmos {
             player.execute(`scoreboard players set @a level_check ${correctPositions.length}`)
         }
     }
+    
     //% block="plaats"
     export function place() {
         agent.setItem(REDSTONE_WIRE, 64, 1);
