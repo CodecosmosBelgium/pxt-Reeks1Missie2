@@ -3,7 +3,7 @@ namespace CodeCosmos {
     function placeAndCheck() {
         const detectPostion = world(agent.getPosition().getValue(Axis.X), agent.getPosition().getValue(Axis.Y) - 1, agent.getPosition().getValue(Axis.Z))
 
-        if (correctPositions.indexOf(detectPostion.toString()) === -1 && !blocks.testForBlock(Block.GreenConcrete, detectPostion) && (blocks.testForBlock(Block.LightGrayConcrete, detectPostion) || blocks.testForBlock(Block.WhiteConcrete, detectPostion) || blocks.testForBlock(Block.RedstoneBlock, detectPostion))) {
+        if (correctPositions.indexOf(detectPostion.toString()) === -1 && !blocks.testForBlock(Block.GreenConcrete, detectPostion) && !blocks.testForBlock(Block.GrayConcrete, detectPostion) && (blocks.testForBlock(Block.LightGrayConcrete, detectPostion) || blocks.testForBlock(Block.WhiteConcrete, detectPostion) || blocks.testForBlock(Block.RedstoneBlock, detectPostion))) {
             agent.place(DOWN)
             correctPositions.push(detectPostion.toString());
             player.execute(`execute @c ~ ~ ~ particle rwm:checkmark ~ ~1 ~`)
