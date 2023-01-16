@@ -14,7 +14,7 @@ player.onChat("jump", function () {
 ```
 
 ```template
-player.onChat("lanceer", function () {
+player.onChat("start", function () {
 CodeCosmos.startingPosition();
 })
 ```
