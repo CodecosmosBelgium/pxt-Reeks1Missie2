@@ -1,5 +1,4 @@
-### @hideIteration true
-### @flyoutOnly true
+
 # Missie 2
 ```blocks
 player.onChat("jump", function () {
