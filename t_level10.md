@@ -3,11 +3,11 @@
 # Missie 2
 ```blocks
 player.onChat("jump", function () {
-    CodeCosmos.startingPosition()
+    CodeCosmosEN.startingPosition()
     for (let index = 0; index < 4; index++) {
-        CodeCosmos.moveAndPlace(FourDirection.Left, 0)
-        CodeCosmos.place()
-        CodeCosmos.checkLevel()
+        CodeCosmosEN.moveAndPlace(FourDirection.Left, 0)
+        CodeCosmosEN.place()
+        CodeCosmosEN.checkLevel()
         agent.move(FORWARD, 1)
     }
 })
@@ -15,8 +15,8 @@ player.onChat("jump", function () {
 
 ```template
 player.onChat("lanceer", function () {
-CodeCosmos.startingPosition();
+CodeCosmosEN.startingPosition();
 })
 ```
-## Lanceer de raket!
-Volg de instructies op het leerplatform om de opdracht op te lossen.
+## Launch the rocket!
+Use the learning platform to solve the exercise.

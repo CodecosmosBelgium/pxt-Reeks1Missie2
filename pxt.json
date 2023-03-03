@@ -12,7 +12,11 @@
         "custom_functions.ts",
         "t_level10.md",
         "t_level1-6.md",
-        "t_no_exercise.md"
+        "t_no_exercise.md",
+        "_locales/nl/t_level1-6.md",
+        "_locales/nl/t_level10.md",
+        "_locales/nl/t_no_exercise.md",
+        "custom_functions_EN.ts"
     ],
     "testFiles": [
         "test.ts"

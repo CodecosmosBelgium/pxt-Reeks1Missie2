@@ -3,18 +3,18 @@
 # Missie 2
 ```blocks
 player.onChat("jump", function () {
-    CodeCosmos.startingPosition()
+    CodeCosmosEN.startingPosition()
     for (let index = 0; index < 4; index++) {
-        CodeCosmos.moveAndPlace(FourDirection.Left, 0)
-        CodeCosmos.checkLevel()
+        CodeCosmosEN.moveAndPlace(FourDirection.Left, 0)
+        CodeCosmosEN.checkLevel()
     }
 })
 ```
 
 ```template
 player.onChat("start", function () {
-CodeCosmos.startingPosition();
+CodeCosmosEN.startingPosition();
 })
 ```
-## Herstel het moederbord (v1.0)
-Volg de instructies op het leerplatform om de opdracht op te lossen.
+## Repare motherboard (v1.0)
+Use the learning platform to solve the exercise.
